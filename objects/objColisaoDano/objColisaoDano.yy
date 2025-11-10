@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objTerra",
+  "%Name":"objColisaoDano",
   "eventList":[],
   "managed":true,
-  "name":"objTerra",
+  "name":"objColisaoDano",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTerra",
-    "path":"sprites/sprTerra/sprTerra.yy",
+    "name":"sprColisaoDano",
+    "path":"sprites/sprColisaoDano/sprColisaoDano.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

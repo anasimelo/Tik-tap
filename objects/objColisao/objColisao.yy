@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objVida",
+  "%Name":"objColisao",
   "eventList":[],
   "managed":true,
-  "name":"objVida",
+  "name":"objColisao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprVida",
-    "path":"sprites/sprVida/sprVida.yy",
+    "name":"sprColisao",
+    "path":"sprites/sprColisao/sprColisao.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
