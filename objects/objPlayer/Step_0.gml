@@ -26,8 +26,8 @@
 	velocidadeVertical += gravidade
 	
 	//colisão abaixo
-	if place_meeting(x,y + velocidadeVertical ,objColisao) and velocidadeVertical >0  {
-		while ! place_meeting(x,y + sign(velocidadeVertical) ,objColisao) and velocidadeVertical >0{
+	if place_meeting(x,y + velocidadeVertical ,objColisao){
+		while ! place_meeting(x,y + sign(velocidadeVertical) ,objColisao){
 			y +=sign(velocidadeVertical)
 		}
 		velocidadeVertical = 0
@@ -49,3 +49,6 @@
 		velocidadeVertical-= 16
 	}
 	
+	if global.pontos == 5{
+	room = rmFase2
+	}
