@@ -50,5 +50,6 @@
 	}
 	
 	if global.pontos == 5{
-	room = rmFase2
-	}
+		room = rmFase2
+}
+	
