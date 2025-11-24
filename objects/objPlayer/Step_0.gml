@@ -15,7 +15,7 @@
 	
 	//Barra de espaço
 	barraEspaco =  keyboard_check_pressed(vk_space)
-	moviVertical = barraEspaco or teclaCima or teclaCima
+	moviVertical = barraEspaco or teclaCima or setaCima
 	
 	
 	//Movimentação horizontal
@@ -49,7 +49,11 @@
 		velocidadeVertical-= 16
 	}
 	
-	if global.pontos == 5{
-		room = rmFase2
-}
+	if global.pontos == 5 and room != room_last{
+		room_goto_next()
+	}
+	else if global.pontos == 5{
+		room = room_first
+	}
+	
 	
