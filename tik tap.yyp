@@ -60,7 +60,7 @@
     {"id":{"name":"sprBotaoPause","path":"sprites/sprBotaoPause/sprBotaoPause.yy",},},
     {"id":{"name":"sprBotaoRestart","path":"sprites/sprBotaoRestart/sprBotaoRestart.yy",},},
     {"id":{"name":"sprBotaoStart","path":"sprites/sprBotaoStart/sprBotaoStart.yy",},},
-    {"id":{"name":"sprColetaveis","path":"sprites/sprColetaveis/sprColetaveis.yy",},},
+    {"id":{"name":"sprColetavel","path":"sprites/sprColetavel/sprColetavel.yy",},},
     {"id":{"name":"sprColisao","path":"sprites/sprColisao/sprColisao.yy",},},
     {"id":{"name":"sprColisaoDano","path":"sprites/sprColisaoDano/sprColisaoDano.yy",},},
     {"id":{"name":"sprFundo","path":"sprites/sprFundo/sprFundo.yy",},},

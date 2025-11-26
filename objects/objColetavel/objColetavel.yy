@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprColetaveis",
-    "path":"sprites/sprColetaveis/sprColetaveis.yy",
+    "name":"sprColetavel",
+    "path":"sprites/sprColetavel/sprColetavel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
